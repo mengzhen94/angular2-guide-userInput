@@ -7,6 +7,7 @@ import {
   KeyUpComponent_v3,
   KeyUpComponent_v4
 } from './keyup.components';
+import { LoopbackComponent } from './loop-back.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -14,7 +15,8 @@ import {
     AppComponent,
     ClickMeComponent,
     KeyUpComponent_v3,
-    KeyUpComponent_v4
+    KeyUpComponent_v4,
+    LoopbackComponent
   ],
   bootstrap:    [ AppComponent ]
 })
