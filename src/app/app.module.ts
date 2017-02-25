@@ -8,6 +8,7 @@ import {
   KeyUpComponent_v4
 } from './keyup.components';
 import { LoopbackComponent } from './loop-back.component';
+import { LittleTourComponent } from './little-tour.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -16,7 +17,8 @@ import { LoopbackComponent } from './loop-back.component';
     ClickMeComponent,
     KeyUpComponent_v3,
     KeyUpComponent_v4,
-    LoopbackComponent
+    LoopbackComponent,
+    LittleTourComponent
   ],
   bootstrap:    [ AppComponent ]
 })
